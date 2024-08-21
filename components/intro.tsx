@@ -9,6 +9,7 @@ import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import ParticleContainer from "./particle-container";
 import githubdp from "@/public/githubdp.jpg";
+import { TbFileDownload } from "react-icons/tb";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -33,7 +34,7 @@ export default function Intro() {
           >
             <Image
               src={githubdp}
-              alt="Ricardo portrait"
+              alt="Hamza portrait"
               width="192"
               height="192"
               quality="95"
@@ -63,9 +64,9 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Ben.</span> I'm a{" "}
-        <span className="font-bold">software engineer</span> at{" "}
-        <span className="font-bold">Humanforce</span> in Brisbane. I'm currently working with Laravel, React.js, GraphQL, and AWS.
+        <span className="font-bold">Hello, I'm Hamza.</span> I'm a{" "}
+        <span className="font-bold">fresh grad</span> from{" "}
+        <span className="font-bold">UOG</span>. I'm currently working with React Native, React.js, Angular, and Ruby on Rails.
       </motion.h1>
 
       <motion.div
@@ -77,8 +78,17 @@ export default function Intro() {
         }}
       >
         <a
+          className="group bg-gray-950 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition border-2 border-white border-opacity-40"
+          href="https://github.com/hamza-140"
+          target="_blank"
+        >
+                    <span className="opacity-70">Resume</span>
+                    <TbFileDownload className="opacity-70"  />
+
+        </a>
+        <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack text-gray-950"
-          href="https://github.com/ben04rogers"
+          href="https://github.com/hamza-140"
           target="_blank"
         >
           GitHub <FaGithub className="opacity-70" />
@@ -86,7 +96,7 @@ export default function Intro() {
 
         <a
           className="group bg-gray-950 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition border-2 border-white border-opacity-40"
-          href="https://www.linkedin.com/in/ben-rogers-dev/"
+          href="https://www.linkedin.com/in/hamza140/"
           target="_blank"
         >
           <span className="opacity-70">LinkedIn</span>
