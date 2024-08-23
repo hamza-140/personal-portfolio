@@ -70,7 +70,7 @@ export default function Intro() {
       </motion.h1>
 
       <motion.div
-        className="flex flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
+        className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
@@ -79,12 +79,10 @@ export default function Intro() {
       >
         <a
           className="group bg-gray-950 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition border-2 border-white border-opacity-40"
-          href="https://github.com/hamza-140"
-          target="_blank"
+          href="https://drive.usercontent.google.com/download?id=191a4PfdmEHDMSPwfg_KFvkjejk_ycrM7&export=download&authuser=0&confirm=t&uuid=218fc188-29bf-4d91-95d0-6cbf03d9f63d&at=AO7h07eSqKMo4PYSDlXI0V-_-Qdy:1724322020791"
         >
-                    <span className="opacity-70">Resume</span>
-                    <TbFileDownload className="opacity-70"  />
-
+          <span className="opacity-70">Resume</span>
+          <TbFileDownload className="opacity-70" />
         </a>
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack text-gray-950"

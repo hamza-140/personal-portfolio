@@ -1,7 +1,8 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import cryptoCrowdImg from "@/public/cryptocrowd2.png";
-import ozdevsImg from "@/public/ozdevs-two.png";
+
+import ozdevsImg from "@/public/ozdevs.png";
 import assetTradingImg from "@/public/asset-trading.jpg";
 import euphorusImg from "@/public/euphorus-two.png";
 import euphorusBackendImg from "@/public/euphorus-backend.png";
@@ -39,63 +40,55 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Web Developer",
-    location: "M3 Digital - Contract",
+    title: "Freelancer",
+    location: "Remote",
     description:
-      "Front-end development for a variety of Shopify stores such as FitazFK, Rider Collective, Masseuse Massage, Francesca Jewellery and Salty Captain. Developed high quality landing pages and front end features using HTML, CSS, SCSS, JavaScript and Liquid.",
+      "Engaged by Assign Project International for a high-level transcription project, leveraging the Datacompute platform to deliver exceptional results. Demonstrated advanced linguistic skills by accurately transcribing a variety of audio formats, including complex speech patterns and multilingual content. Adhered to rigorous quality standards, consistently exceeding the 90% accuracy threshold. Managed tight deadlines with precision, showcasing a commitment to excellence and meticulous attention to detail in all deliverables.",
     icon: React.createElement(CgWorkAlt),
-    date: "September 2021 - February 2022",
+    date: "July 2022 - Present",
   },
   {
-    title: "Junior Developer",
-    location: "YouPay",
+    title: "Angular Internee",
+    location: "CyberSilo PVT Ltd",
     description:
-      "Developed new features using Laravel, Vue.js, PHP, JavaScript, Tailwind CSS, MySQL and REST APIs. Created an email notification system for mechants to receive weekly/monthly summaries of YouPay carts created, paid and cancelled. I also integrated YouPay into dozens of stores.",
+      "At CyberSilo, I played a key role in managing and enhancing the company's project service, ThreatHawk. Utilizing AngularJS for front-end development, I collaborated on designing and implementing user interfaces that were both intuitive and efficient. My most significant achievement was identifying and resolving a critical issue in the ticketing system, where unlimited network requests were being generated due to a malfunction. By optimizing the system, I successfully reduced these unnecessary requests by 95%, significantly improving system efficiency and reducing server load. My contributions highlighted my proficiency in AngularJS, problem-solving, and technical innovation, ensuring a more stable and reliable service.",
     icon: React.createElement(CgWorkAlt),
-    date: "February 2022 - November 2022",
+    date: "February 2024 - March 2024",
   },
   {
-    title: "Software Engineer",
-    location: "The University of Queensland",
+    title: "Ruby on Rails Internee",
+    location: "TwinSpider Technologies",
     description:
-      "Full-stack software engineer in the Application Development and Support team. Worked on web applications such as CAHP (Casual Academic Hire and Payment), UQ Maps, UQ Donations, and Programs and Courses.",
+      "At TwinSpider Technologies, I gained valuable hands-on experience in full-stack development, working primarily with Ruby on Rails. I contributed to the development and optimization of several key projects, including a project management tool with MVC architecture and role-based authorization. My responsibilities included debugging and refining existing code.",
     icon: React.createElement(CgWorkAlt),
-    date: "November 2022 - January 2024",
-  },
-  {
-    title: "Software Engineer",
-    location: "Humanforce",
-    description:
-      "Software engineer in the intelliHR platform team. We are a feature enablement team dedicated to developing features for developers, ensuring they are easier to create. We also look after issues of scale and technical debt for developers and the platform.",
-    icon: React.createElement(CgWorkAlt),
-    date: "January 2024 - Present",
+    date: "March 2024 - May 2024",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CryptoCrowd",
+    title: "Tinytot Learners",
     description:
-      "Cryptocurrency sentiment analysis website based on Twitter posts. Users can see the overall sentiment (positive, negative or neutral) of different Cryptocurrencies based on what people are currently posting on Twitter. Users can also see keywords and an average sentiment score. Stateless application that uses Elasticache and S3 on AWS. It also used EC2 and auto-scaling to manage demand.",
+      "Tinytot Learners is an educational platform designed to enhance early childhood learning experiences through interactive, engaging, and personalized content. The platform focuses on fostering foundational skills in young learners by games, quizzes, and multimedia content tailored to various learning levels.",
     tags: ["JavaScript", "React", "Express.js", "AWS"],
     icons: [
-      "logos:aws",
-      "logos:javascript",
+      "logos:firebase",
+      "tabler:brand-react-native",
       "logos:react",
       "logos:bootstrap",
-      "logos:express",
+      "devicon:tailwindcss",
     ],
     imageUrl: cryptoCrowdImg,
-    githubLink: "https://github.com/ben04rogers/cab432-assignment-2",
-    demoLink: "https://www.youtube.com/watch?v=uhyC0M4WIl4",
+    githubLink: "https://github.com/hamza-140/tinytot-fyp",
+    // demoLink: "https://www.youtube.com/watch?v=uhyC0M4WIl4",
   },
   {
-    title: "OzDevs",
+    title: "Job Portal",
     description:
-      "Reverse Job board for companies looking to hire developers in Australia. Filter by experience, location and keyboards.  Companies can pay a monthly fee to be able to message developers on the site and view their information.",
-    tags: ["PHP", "Laravel", "JavaScript", "Tailwind", "MySQL"],
+      "Developed a full-stack web application using the MERN stack (MongoDB, Express, React, Node.js) that enables users to post job listings, apply for jobs, and manage applications efficiently. The platform features seamless API integration and robust database management, offering a user-friendly experience for both job seekers and employers.",
+    tags: ["React", "MongoDB", "Express", "Tailwind", "Node"],
     icons: [
-      "logos:laravel",
+      "logos:react",
       "logos:php",
       "logos:javascript",
       "devicon:tailwindcss",
@@ -177,6 +170,10 @@ export const skillsData = [
   {
     name: "JavaScript",
     icon: "logos:javascript",
+  },
+  {
+    name: "React Native",
+    icon: "tabler:brand-react-native",
   },
   {
     name: "TypeScript",
