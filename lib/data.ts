@@ -99,7 +99,7 @@ export const projectsData = [
     githubLink: "https://github.com/ben04rogers/ozdevs-v2",
   },
   {
-    title: "Company Asset Trading",
+    title: "Bugzilla",
     description:
       "Client-server system written in Java for trading of virtual assets within departments of a company. Facilitated trades via a marketplace model where users can buy and sell assets. Admins of an organisation can create assets, users and modify details. Uses MariaDB as a database and Swing for the GUI.",
     tags: ["Java", "MariaDB", "Swing"],
